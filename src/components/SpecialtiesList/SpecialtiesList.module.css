@@ -1,0 +1,6 @@
+.SpecialitiesList_block{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 6vw;
+}

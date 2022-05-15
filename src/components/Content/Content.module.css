@@ -1,0 +1,6 @@
+.Content_block{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    margin-left: 6vw;
+}

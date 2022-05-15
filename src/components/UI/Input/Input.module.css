@@ -1,0 +1,40 @@
+.input {
+    display: block;
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    border: none;
+    margin-right: 10px;
+    background: #343B53;
+    padding-left: 10px;
+    color: white;
+  }
+
+  ::-webkit-input-placeholder { /* WebKit browsers */
+    color: #555C75;;
+  }
+
+  input {outline:none;}
+
+  .icon{
+    object-fit:contain;
+    position: relative;
+    height: 80%; 
+    margin: auto;
+    padding-left: 13px;
+  }
+  
+  .main_input_block{
+      display: flex;
+      flex-direction: row;
+      width: 90%;
+      height: 40px;
+      margin: 30px auto;
+      background: #343B53;
+      box-shadow: 6px 6px 20px #262A3B;
+      border-radius: 10px;
+  }
+

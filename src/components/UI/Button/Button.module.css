@@ -1,0 +1,20 @@
+.Button{
+    background: #343B53;
+    box-shadow: 6px 6px 20px #262A3B;
+    border-radius: 10px;
+    width: 23vw;
+    height: 40px;
+    margin-top: 30px;
+    color: white;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые
+    считают, что необходимо оставлять стрелочный вид для кнопок */
+    cursor: pointer;
+  }

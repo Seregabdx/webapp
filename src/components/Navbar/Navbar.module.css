@@ -1,0 +1,42 @@
+.Navbar{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 5vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    background: url("../../images/menu_background.png") no-repeat center/120%;
+    box-shadow: 5px 0px 20px #262B3D;
+    align-items: center;
+}
+
+.img{
+    display: flex;
+    object-fit: cover;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.logo{
+    display: flex;
+    object-fit: cover;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.img:hover{
+    background: linear-gradient(200.44deg, #AC5ACF 1.81%, #C26DBA 103.41%);
+    border-radius: 50%;
+}
+
+.menu_block{
+    display: flex;
+    flex-direction: column;
+}
+
+.account{
+    display: flex;
+    object-fit: contain;
+    margin: 0px auto;
+}

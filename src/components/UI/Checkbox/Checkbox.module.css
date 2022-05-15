@@ -1,0 +1,43 @@
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 1vw;
+    margin-right: auto;
+}
+
+.checkbox{
+    display: flex;
+    width: 2.5vw;
+    height: 2.5vw;
+    background: #3E455F;
+    box-shadow: 6px 6px 20px #262A3B;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.label{
+    display: none;
+    user-select: none;
+}
+
+.active{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    width: 1.7vw;
+    height: 1.7vw;
+    margin: auto;
+    background: linear-gradient(142.88deg, #A655D6 -9.15%, #E476A2 109.15%);
+    box-shadow: 2px 2px 5px #343B53;
+    border-radius: 6px;
+}
+
+.checkbox_text{
+    margin: auto 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #FFFFFF;
+}

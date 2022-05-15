@@ -1,0 +1,17 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: auto;
+  /* background: linear-gradient(131.9deg, #2C3143 6.54%, #30364F 105.63%); */
+  background: url("../src/images/background.png") no-repeat center/100% fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.Main_block{
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 100%;
+}

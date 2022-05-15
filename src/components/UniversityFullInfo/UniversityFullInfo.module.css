@@ -1,0 +1,92 @@
+.UniversityInfo{
+    margin: 30px 0px 0 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    flex-direction: row;
+}
+
+.text_box.disable{
+    display: none;
+}
+
+.InfoBox{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px 10px 15px;
+    text-align: start;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+    background: rgba(52, 59, 83, 0.2);
+    box-shadow: 6px 6px 20px #262A3B;
+    border-radius: 10px;
+}
+
+.Icon{
+    display: flex;
+    object-fit: cover;
+    filter: drop-shadow(6px 6px 20px #262A3B);
+    border-radius: 10px;
+    width: 10vw;
+    height: 10vw;
+    margin: auto 15px;
+}
+
+.span{
+    margin-left: 10px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #ED9294;
+}
+
+.text{
+    margin-left: 25px;
+}
+
+.name{
+    margin-top: 10px;
+    margin: 0 30px
+}
+
+.rate{
+    font-weight: 500;
+    margin: 0 25px
+}
+
+.city{
+    font-weight: 500;
+    margin: 0 30px
+}
+
+.span{
+    margin-left: 10px;
+    font-weight: 800;
+    line-height: 30px;
+    color: #ED9294;
+}
+
+.arrow{
+    background: #343B53;
+    box-shadow: 6px 6px 20px #262A3B;
+    border-radius: 10px;
+    width: 3vw;
+    text-align: center;
+    margin-left: 47vw;
+    margin-top: -0.2vw;
+}
+
+.text_box{
+    
+    width: 100%;
+}
+
+.UniversityFullInfo{
+    display: none;
+}
+
+.UniversityFullInfo.active{
+    display: flex;
+}

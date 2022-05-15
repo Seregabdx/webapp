@@ -1,0 +1,7 @@
+.Filter_block{
+    display: flex;
+    margin: 0px auto;
+    width: 25vw;
+    flex-direction: column;
+    align-items: center;
+}
