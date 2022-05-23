@@ -1,33 +1,47 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import style from "./UniversityInfo.module.css"
 import UniversityFullInfo from '../UniversityFullInfo/UniversityFullInfo';
 
-const UniversityInfo = () => {
-  const [info, setInfo] = useState([1, 2, 3]);
+const UniversityInfo = ({info}) => {
   const [vision, setVision] = useState(false)
   const [arrow, setArrow] = useState("▼")
 
   const rootClasses = [style.UniversityFullInfo]
   const rootClasses2 = [style.InfoBox]
+  const rootClasses3 = [style.span]
+
+  useEffect(() => {
+    try {
+      console.log(info)
+    } catch (error) {
+      console.log(error)
+    }
+  })
+  
+
   if(vision){
     rootClasses.push(style.active)
     rootClasses2.push(style.disable)
   }
 
+  if(info.universityInfo.ratingChange >= 0){
+    rootClasses3.push(style.positive)
+  }
+
   return (
     <div className={style.UniversityInfo}>
       <div className={style.img_block}>
-        <img className={style.Icon} src='data:image/png;base64,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' alt='' />
+        <img className={style.Icon} src={`https://xn----7sbbi4acsqbibbdojqr6o.xn--p1ai/file-service/storage/download/${info.universityLogo}`} alt='' />
         <div className={style.arrow} onClick={() => {setVision(!vision); console.log(123); arrow == "▼" ? setArrow("▲") : setArrow("▼")}}>{arrow}</div>
       </div>
       <div className={rootClasses2.join(" ")}>
         <div className={style.text_box}>
-          <div className={style.name}>Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И.Ульянова</div>
-          <div className={style.rate}>Изменение рейтинга за год <span className={style.span}>123</span></div>
-          <div className={style.city}>Санкт-Петербург</div>
+          <div className={style.name}>{info.universityName}</div>
+          <div className={style.rate}>Изменение рейтинга за год:  <span className={rootClasses3.join(" ")}>{info.universityInfo.ratingChange}</span></div>
+          <div className={style.city}>Адрес: {info.universityAdress}</div>
         </div>
       </div>
-      <div className={rootClasses.join(" ")}><UniversityFullInfo/></div>
+      <div className={rootClasses.join(" ")}><UniversityFullInfo info={info} /></div>
     </div>
   )
 }

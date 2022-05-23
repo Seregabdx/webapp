@@ -1,0 +1,30 @@
+.block{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 10px 0px;
+    width: 33vw;
+    justify-content: space-between;
+}
+
+.text{
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 1vw;
+    text-align: center;
+}
+
+.content_block{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin-left: 6vw;
+    align-items: center;
+}
+
+.title{
+    color: white;
+    font-size: 2vw;
+    margin: 2vw 0;
+    font-weight: 700;
+}

@@ -1,0 +1,10 @@
+.number_block{
+    margin-bottom: 0px;
+    margin-top: auto;
+}
+
+.number{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+}

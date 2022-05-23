@@ -18,3 +18,7 @@ button {
     считают, что необходимо оставлять стрелочный вид для кнопок */
     cursor: pointer;
   }
+
+.button_block{
+    margin: auto;
+}

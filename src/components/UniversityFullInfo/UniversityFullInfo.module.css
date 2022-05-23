@@ -6,7 +6,15 @@
     flex-direction: row;
 }
 
+.Box{
+    width: 54vw;
+}
+
 .text_box.disable{
+    display: none;
+}
+
+.InfoBox.disable{
     display: none;
 }
 
@@ -16,7 +24,7 @@
     margin: 0px 15px 10px 15px;
     text-align: start;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 15px;
     line-height: 30px;
     color: #FFFFFF;
@@ -35,25 +43,39 @@
     margin: auto 15px;
 }
 
+.span_rating.positive{
+    color: lightgreen;
+}
+
 .span{
     margin-left: 10px;
-    font-weight: 800;
+    font-weight: 700;
     line-height: 30px;
-    color: #ED9294;
+    color: white;
 }
+
+a{
+    color: white;
+    }
 
 .text{
     margin-left: 25px;
 }
 
+.text_name{
+    font-weight: 700;
+    margin-left: 25px;
+    font-size: 1.1vw;
+}
+
 .name{
-    margin-top: 10px;
-    margin: 0 30px
+    font-size: 1.3vw;
+    font-weight: 700;
+    margin: 1vw 30px
 }
 
 .rate{
-    font-weight: 500;
-    margin: 0 25px
+    margin: 0.5vw 25px
 }
 
 .city{
@@ -61,7 +83,7 @@
     margin: 0 30px
 }
 
-.span{
+.span_rating{
     margin-left: 10px;
     font-weight: 800;
     line-height: 30px;

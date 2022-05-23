@@ -2,13 +2,13 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import style from "../Speciality/Speciality.module.css"
 
-const Speciality = () => {
+const Speciality = ({specialtiesName}) => {
   const navigate = useNavigate()
   return (
     <div className={style.speciality_container} onClick={()=>{
-      navigate("/программирование")
+      navigate(`/${specialtiesName.split("!")[1]}`)
     }}>
-      <div className={style.speciality_name}>Программирование</div>
+      <div className={style.speciality_name}>{specialtiesName.replace("!", " ")}</div>
     </div>
   )
 }

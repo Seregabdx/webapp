@@ -13,7 +13,9 @@
 .speciality_name{
     color: white;
     margin: auto 3vw;
+    white-space: nowrap;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+    font-size: 1.2vw;
 }
